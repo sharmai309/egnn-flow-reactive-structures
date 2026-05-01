@@ -90,13 +90,7 @@ More flow steps at inference (Medium) — Try 40–50 steps instead of 20 for be
 
 ### Repository Structure
 
-egnn-flow-reactive-structures/
-├── train_egnn_flow_combined 1.3.py        # Main training script
-├── combined_train.pkl                      # Training set (7,700 reactions)
-├── combined_val.pkl                        # Validation set (1,650 reactions)
-├── combined_test.pkl                       # Test set (1,650 reactions)
-├── EGNN_TS_Prediction_Final_Team6.pptx    # Final presentation slides
-└── README.md
+<img width="1440" height="558" alt="image" src="https://github.com/user-attachments/assets/be2b0bf8-d4f8-49fd-b509-2c842767a863" />
 
 ### Installation & Usage
 git clone https://github.com/sharmai309/egnn-flow-reactive-structures.git
