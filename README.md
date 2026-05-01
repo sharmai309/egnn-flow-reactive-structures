@@ -29,31 +29,10 @@ Evaluation metric: Δ = RMSD(midpoint, TS) − RMSD(model, TS) · Mean RMSD (low
 
 ### Pipeline Architecture
 
-INPUT: Reactant + Product positions (3D), atom types, charges, forces
-         │
-         ▼
-┌─────────────────────────────────────┐
-│  Stage 1: EGNN — Initial TS Guess   │
-│  E(n)-Equivariant GNN on molecular  │
-│  graph of reactant + product atoms  │
-└─────────────────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────────┐
-│  Stage 2: Flow Matching — Refinement│
-│  Learns velocity field vθ(xt,t|R,P) │
-│  Trajectory: midpoint → TS (20 steps)│
-└─────────────────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────────┐
-│  Stage 3: Ensemble — Final Output   │
-│  50/50 average of EGNN + Flow       │
-│  Kabsch alignment for RMSD eval     │
-└─────────────────────────────────────┘
-         │
-         ▼
-OUTPUT: Predicted TS geometry (.xyz)
+<img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/f0e04cda-2993-4182-bb0f-cf1ac5a7eb64" />
+
+
+
 
 
 #### Stage 1 — EGNN (Initial TS Guess)
