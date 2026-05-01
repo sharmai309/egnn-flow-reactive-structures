@@ -93,10 +93,11 @@ More flow steps at inference (Medium) — Try 40–50 steps instead of 20 for be
 <img width="1440" height="558" alt="image" src="https://github.com/user-attachments/assets/be2b0bf8-d4f8-49fd-b509-2c842767a863" />
 
 ### Installation & Usage
-git clone https://github.com/sharmai309/egnn-flow-reactive-structures.git
-cd egnn-flow-reactive-structures
-pip install torch torch-geometric numpy scipy
-python "train_egnn_flow_combined 1.3.py"
+
+##### git clone https://github.com/sharmai309/egnn-flow-reactive-structures.git
+##### cd egnn-flow-reactive-structures
+##### pip install torch torch-geometric numpy scipy
+##### python "train_egnn_flow_combined 1.3.py"
 
 ### References
 
