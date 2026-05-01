@@ -101,6 +101,6 @@ More flow steps at inference (Medium) — Try 40–50 steps instead of 20 for be
 
 ### References
 
-> Satorras et al. (2021). E(n) Equivariant Graph Neural Networks
-> Lipman et al. (2022). Flow Matching for Generative Modeling
-> https://github.com/chicago-aiscience/generative_chem_reactive_structures
+##### Satorras et al. (2021). E(n) Equivariant Graph Neural Networks
+##### Lipman et al. (2022). Flow Matching for Generative Modeling
+##### https://github.com/chicago-aiscience/generative_chem_reactive_structures
